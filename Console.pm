@@ -9,7 +9,7 @@ package Win32::Console;
 require Exporter;
 require DynaLoader;
 
-$VERSION = "0.09";
+$VERSION = "0.10";
 
 @ISA= qw( Exporter DynaLoader );
 @EXPORT = qw(
@@ -776,7 +776,7 @@ Example:
 
 Closes a shortcut object.  Note that it is not "strictly" required to
 close the objects you created, since the Win32::Shortcut objects are
-automatically closed when the program ends (or when you elsehow
+automatically closed when the program ends (or when you somehow
 destroy such an object).
 
 Example:
